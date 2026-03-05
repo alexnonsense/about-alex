@@ -21,6 +21,9 @@ const lora = Lora({
 export const metadata: Metadata = {
   title: "Alex Hersham",
   description: "Builder, thinker, and occasional writer.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
